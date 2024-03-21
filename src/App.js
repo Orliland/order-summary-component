@@ -26,7 +26,7 @@ function Order() {
           any device anywhere you like!
         </p>
         <PlanSelected />
-        <button className="button">Proceed to Payment</button>
+        <button className="button button--primary">Proceed to Payment</button>
         <button className="button button--secondary">Cancel Order</button>
       </div>
     </main>

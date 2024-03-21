@@ -8,10 +8,12 @@
   --dark-blue: hsl(223, 47%, 23%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --bright-blue: hsl(245, 75%, 52%);
+  --light-blue: hsl(245, 83%, 68%);
   --white: #ffffff;
   --shadow: 0 2rem 2rem hsla(245, 75%, 52%, 19%);
 
   --title: 900 2.2rem "Red Hat Display";
+  --title-x: 900 2.8rem "Red Hat Display";
   --title-s: 900 1.4rem "Red Hat Display";
   --text: 500 1.6rem/2.5rem "Red Hat Display";
   --text-s: 500 1.4rem/2.5rem "Red Hat Display";
