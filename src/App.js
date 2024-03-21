@@ -19,14 +19,16 @@ function Order() {
   return (
     <main className="card">
       <img src={Hero} alt="thumbnail of the card" className="card__thumb" />
-      <h2 className="card__title">Order Summary</h2>
-      <p className="card__description">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <PlanSelected />
-      <button className="button button--primary">Proceed to Payment</button>
-      <button className="button button--secondary">Cancel Order</button>
+      <div className="card__body">
+        <h2 className="card__title">Order Summary</h2>
+        <p className="card__description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <PlanSelected />
+        <button className="button">Proceed to Payment</button>
+        <button className="button button--secondary">Cancel Order</button>
+      </div>
     </main>
   );
 }

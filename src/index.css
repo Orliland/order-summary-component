@@ -1,0 +1,32 @@
+:root {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
+  font-weight: 500;
+
+  --pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --white: #ffffff;
+  --shadow: 0 2rem 2rem hsla(245, 75%, 52%, 19%);
+
+  --title: 900 2.2rem "Red Hat Display";
+  --title-s: 900 1.4rem "Red Hat Display";
+  --text: 500 1.6rem/2.5rem "Red Hat Display";
+  --text-s: 500 1.4rem/2.5rem "Red Hat Display";
+  --button: 900 1.6rem "Red Hat display";
+  --button-s: 700 1.3rem "Red Hat display";
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0rem;
+  padding: 0 2.4rem;
+
+  font-size: 1.6rem;
+
+  background-color: var(--pale-blue);
+}
