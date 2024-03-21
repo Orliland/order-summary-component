@@ -30,5 +30,15 @@ body {
 
   font-size: 1.6rem;
 
-  background-color: var(--pale-blue);
+  background: url("./assets/pattern-background-mobile.svg"), var(--pale-blue);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: url("./assets/pattern-background-desktop.svg"), var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
